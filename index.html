@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mountain Map</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="map-container">
+        <div class="left_Container">
+            <h1>XALAOQLUNUN OYUNU</h1>
+            <table class="map">
+
+            </table>
+        </div>
+        <div class="cont">
+            <div class="score_box">
+                <div class="score-container">
+                    <div class="season-box spring"><span class="term">Spring</span><br><span class="score-text">Score:
+                            0</span></div>
+                    <div class="season-box summer"><span class="term">Summer</span><br><span class="score-text">Score:
+                            0</span></div>
+                    <div class="season-box autumn"><span class="term">Autumn</span><br><span class="score-text">Score:
+                            0</span></div>
+                    <div class="season-box winter"><span class="term">Winter</span><br><span class="score-text">Score:
+                            0</span></div>
+                </div>
+                <div class="total_points">
+                    <h3>Total Points: <span class="t_point">0</span></h3>
+                </div>
+            </div>
+
+            <div class="mission_container">
+                <div class="current_season">
+                    <h2>Current Season: <span id="current_season">Spring</span></h2>
+                </div>
+                <div class="card_container">
+                </div>
+            </div>
+
+
+            <div class="element_box">
+                <div class="current_time">
+                    <h2>Elapsed time in current season: <span id="elapsed_time">0</span>/7</h2>
+                </div>
+                <button class="btn1 reset">Reset</button>
+                <div class="element_container">
+                    <div class="left_element">
+                        <h2>Current element:</h2>
+                        <div class="btn_container">
+                            <button class="btn1 rotate">Rotate</button>
+                            <button class="btn1 flip">Flip</button>
+                        </div>
+                    </div>
+                    <div class="right_element">
+                        <div class="image_box_container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

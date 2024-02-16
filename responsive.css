@@ -1,0 +1,50 @@
+@media screen and (max-width: 1750px) {
+    .mission_card {
+        max-width: 250px;
+        height: 100px;
+    }
+    .card_container {
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        max-width: 100%;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1560px) {
+    .map {
+        width: 600px;
+        height:600px;
+    }
+    .season-box{
+        width: 100px;
+    height: 100px;
+    font-size: 9px;
+    }
+    
+    .cont{
+    width: 600px;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .image_box_container {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 270px;
+        border-radius: 10px;
+    }
+    .btn1{
+        width: 150px;
+        height: 80px;
+    }
+    .map {
+        width: 500px;
+        height: 500px;
+    }
+}
